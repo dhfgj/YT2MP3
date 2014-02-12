@@ -10,7 +10,8 @@ import java.net.URL;
 /**
  * Submits the URL's and begins to parse the content and download from the parsed information.
  * 
- * @author Ross/Lynxaa
+ * @author Lynxaa
+ * @since Feb 12, 2014 3:21:22 PM
  */
 public class DownloadMP3Thread implements Runnable {
 	private String videoID;

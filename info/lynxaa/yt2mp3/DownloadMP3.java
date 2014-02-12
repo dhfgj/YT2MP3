@@ -5,7 +5,8 @@ package info.lynxaa.yt2mp3;
  * 
  * @see info.lynxaa.yt2mp3#DownloadMP3Thread
  * 
- * @author Ross/Lynxaa
+ * @author Lynxaa
+ * @since Feb 12, 2014 3:21:22 PM
  */
 public class DownloadMP3 {
 	private String videoID;

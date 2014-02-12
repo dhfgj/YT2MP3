@@ -11,7 +11,8 @@ import java.util.Scanner;
  * 
  * What do you guys think.. should I add a UI for this simple application, or keep it command prompt only?
  * 
- * @author Lynxaa/Ross
+ * @author Lynxaa
+ * @since Feb 12, 2014 3:21:22 PM
  */
 public class Start {
 

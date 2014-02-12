@@ -14,7 +14,8 @@ import java.util.List;
  * Basic file utilities to help file reading, saving, loading, etc.
  * I'll add more to this as I need it.
  * 
- * @author Ross/Lynxaa
+ * @author Lynxaa
+ * @since Feb 12, 2014 3:21:22 PM
  */
 public class FileUtils {
 	

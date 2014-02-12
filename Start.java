@@ -9,6 +9,8 @@ import java.util.Scanner;
  * 
  * A simple java application to convert youtube videos into mp3 audio format.
  * 
+ * What do you guys think.. should I add a UI for this simple application, or keep it command prompt only?
+ * 
  * @author Lynxaa/Ross
  */
 public class Start {
@@ -22,6 +24,8 @@ public class Start {
 	public static void main(String[] args) {
 		final Scanner scanner = new Scanner(System.in);
 		System.out.println("Welcome to YT2MP3 by Lynxaa!");
+		System.out.println("What do you guys think.. should I add a UI for this simple application, or keep it command prompt only?");
+		System.out.println("PM me on HF or Github.");
 		System.out.println("Check me out @ http://lynxaa.info/ (Might be down)");
 		System.out.println("Thanks to Lemm0n for finding the site!");
 		System.out.println("");

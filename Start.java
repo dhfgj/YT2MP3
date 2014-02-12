@@ -13,6 +13,12 @@ import java.util.Scanner;
  */
 public class Start {
 
+	/**
+	 * Main method that gets called once the application is launched.
+	 * 
+	 * @param args
+	 * 		  Run arguments. I might use these for something later on.
+	 */
 	public static void main(String[] args) {
 		final Scanner scanner = new Scanner(System.in);
 		System.out.println("Welcome to YT2MP3 by Lynxaa!");
@@ -27,11 +33,11 @@ public class Start {
 		
 		System.out.println(" ");
 
+		/** Inform the user of the lines read & what will be downloaded. */
 		for (String line : contents) {
 			System.out.println(line);
 		}
 		
-		System.out.println(String.format("%s lines read.", new Object[] { contents.size() }));
 		System.out.println("");
 
 		System.out.println("Enter the save directory: ");
@@ -46,7 +52,6 @@ public class Start {
 			final DownloadMP3 downloadMP3 = DownloadMP3.downloadMP3(url, directory);
 		}
 
-		System.out.println("");
 		scanner.close();
 	}
 

@@ -10,7 +10,20 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+/**
+ * Basic file utilities to help file reading, saving, loading, etc.
+ * I'll add more to this as I need it.
+ * 
+ * @author Ross/Lynxaa
+ */
 public class FileUtils {
+	
+	/**
+	 * Returns an array of strings containing the data from the file submitted for reading.
+	 * 
+	 * @param file
+	 * @return <tt>java.util.List</tt>
+	 */
 	public static List<String> readAllLines(final String file) {
 		final List<String> tempList = new ArrayList<String>();
 		BufferedReader reader = null;
@@ -37,6 +50,13 @@ public class FileUtils {
 		return tempList;
 	}
 
+	/**
+	 * Reads all lines from the input file and then adds each line into the Collection array.
+	 * 
+	 * @param file
+	 * @param content
+	 * 			Collection to add the data to.
+	 */
 	public static void readFile(File file, Collection<String> content) {
 		BufferedReader reader = null;
 		try {

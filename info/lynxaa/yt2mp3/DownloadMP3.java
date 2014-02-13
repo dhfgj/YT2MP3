@@ -1,5 +1,7 @@
 package info.lynxaa.yt2mp3;
 
+import java.util.concurrent.Executors;
+
 /**
  * Sets up the data used to submit the download thread for parsing & downloading.
  * 
@@ -18,7 +20,7 @@ public class DownloadMP3 {
 	private DownloadMP3(final String videoID, final String savePath) {
 		this.setVideoID(videoID);
 
-		new Thread(new DownloadMP3Thread(videoID, savePath)).start();
+		Executors.newSingleThreadExecutor().execute(new DownloadMP3Thread(videoID, savePath));
 	}
 
 	public String getVideoID() {
